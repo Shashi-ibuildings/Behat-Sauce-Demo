@@ -1,0 +1,11 @@
+default:
+    paths:
+        features: 'features'
+        bootstrap: '%behat.paths.features%/bootstrap'
+    context:
+        class: 'FeatureContext'
+        parameters:
+            username: 'Shashikant86'
+            access_key: 'a0e37e25-e2f3-4cba-95d3-936007d8bfc3'
+            base_url: 'http://en.wikipedia.org/wiki/Main_Page'
+            name: 'optional-test-name'
